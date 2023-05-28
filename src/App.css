@@ -1,0 +1,60 @@
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+/* Select app dropdown */
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Sort order select */
+.sort-order-select {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Pagination Bar */
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333333;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+}
+
+.page-link.active {
+  font-weight: bold;
+  background-color: #dddddd;
+}

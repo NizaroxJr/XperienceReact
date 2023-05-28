@@ -1,0 +1,19 @@
+/* Search Interface */
+.search-interface {
+  flex: 1;
+  padding: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.filter-options {
+  margin-top: 10px;
+}
+
+.filter-option {
+  margin-bottom: 5px;
+}

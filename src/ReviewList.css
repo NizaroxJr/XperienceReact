@@ -1,0 +1,45 @@
+/* Review List */
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.review {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-details {
+  margin-bottom: 10px;
+}
+
+.review-heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-rating {
+  margin-bottom: 5px;
+}
+
+.review-text {
+  margin-bottom: 5px;
+}
+
+.review-user {
+  font-style: italic;
+}
+
+.review-time {
+  font-size: 12px;
+  color: #888888;
+}
+
+.review-country {
+  font-size: 12px;
+  color: #888888;
+}
